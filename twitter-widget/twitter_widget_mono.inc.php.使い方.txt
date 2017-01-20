@@ -15,8 +15,8 @@ data-id=&color(blue){data-id};
 ~Twitterの単一ツイートの表示を行います。Twitterのアカウントやウィジェットの必要はありません。
 :引数|
 user-id(必須)  : TwitterのユーザーID(@以降)
-data-id(必須)  : Twitterのツイート固有のID(個別に表示させた際の"/status/"以降の18桁の数字
-data-theme     : テーマを指定 light(白基調、規定値)、dark(黒基調)
+data-id(必須)  : Twitterのツイート固有のID(個別に表示させた際の"/status/"以降の符号なし64ビットの整数
+data-theme     : テーマを指定 light(白基調、規定値)、dark(黒基調)
 data-link-color: ツイート内のリンク表示色。シャープで始まる3桁の16進数値(#000～#FFF)、同じく6桁の16進数値(#000000 ～ #FFFFFF)のいずれかで指定。大文字小文字不問。
 :使い方|
 ツイッターのタイムラインから表示させたいツイートをクリックして単一のツイートを表示させます。
