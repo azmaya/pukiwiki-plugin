@@ -1,0 +1,2 @@
+# twitter_widget_mono
+Twitterの単一ツイートの表示を行います。Twitterのアカウントやウィジェットの必要はありません。
