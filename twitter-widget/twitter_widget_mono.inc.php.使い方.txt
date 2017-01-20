@@ -1,28 +1,28 @@
 **twitter_widget_mono
-:���|
-~�C�����C���^�v���O�C��
-~�u���b�N�^�v���O�C��
-:�d�v�x|
-~����������
-:����|
+:種別|
+~インライン型プラグイン
+~ブロック型プラグイン
+:重要度|
+~☆☆☆☆☆
+:書式|
 ~''&twitter_widget_mono(''
 user-id=&color(blue){user-id};,
 data-id=&color(blue){data-id};
 [,data-theme={[&color(blue){data-theme};]}]
 [,data-link-color={[&color(blue){data-link-color};]}]
 '')''
-:�T�v|
-~Twitter�̒P��c�C�[�g�̕\�����s���܂��BTwitter�̃A�J�E���g��E�B�W�F�b�g�̕K�v�͂���܂���B
-:����|
-user-id(�K�{)  : Twitter�̃��[�U�[ID(@�ȍ~)
-data-id(�K�{)  : Twitter�̃c�C�[�g�ŗL��ID(�ʂɕ\���������ۂ�"/status/"�ȍ~��18���̐���
-data-theme     : �e�[�}���w�� light(����A�K��l)�Adark(���)
-data-link-color: �c�C�[�g���̃����N�\���F�B�V���[�v�Ŏn�܂�3����16�i���l(#000�`#FFF)�A������6����16�i���l(#000000 �` #FFFFFF)�̂����ꂩ�Ŏw��B�啶���������s��B
-:�g����|
-�c�C�b�^�[�̃^�C�����C������\�����������c�C�[�g���N���b�N���ĒP��̃c�C�[�g��\�������܂��B
-�A�h���X�́uhttps&#x3a;//twitter.com/&color(blue){(UserID)};/status/&color(blue){999999999999999999};�v����Y����ID���R�s�[���܂��B
-�e�[�}�⃊���N�̐F�����D�݂Œǉ����ăv���O�C���ɋL�q���܂��B
-���c�C�b�^�[�����̖��ߍ��݃X�N���v�g�𗘗p���Ă��邽�߁A�d�l���ς�����ꍇ�͎g���Ȃ��Ȃ鋰�ꂪ����܂��B
+:概要|
+~Twitterの単一ツイートの表示を行います。Twitterのアカウントやウィジェットの必要はありません。
+:引数|
+user-id(必須)  : TwitterのユーザーID(@以降)
+data-id(必須)  : Twitterのツイート固有のID(個別に表示させた際の"/status/"以降の18桁の数字
+data-theme     : テーマを指定 light(白基調、規定値)、dark(黒基調)
+data-link-color: ツイート内のリンク表示色。シャープで始まる3桁の16進数値(#000～#FFF)、同じく6桁の16進数値(#000000 ～ #FFFFFF)のいずれかで指定。大文字小文字不問。
+:使い方|
+ツイッターのタイムラインから表示させたいツイートをクリックして単一のツイートを表示させます。
+アドレスの「https&#x3a;//twitter.com/&color(blue){(UserID)};/status/&color(blue){999999999999999999};」から該当のIDをコピーします。
+テーマやリンクの色等お好みで追加してプラグインに記述します。
+※ツイッター公式の埋め込みスクリプトを利用しているため、仕様が変わった場合は使えなくなる恐れがあります。
 
  https://twitter.com/TwitterJP/status/815210988425203712
  &twitter_widget_mono(user-id=TwitterJP,data-id=815210988425203712);

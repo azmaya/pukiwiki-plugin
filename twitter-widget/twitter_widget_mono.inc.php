@@ -1,6 +1,6 @@
 <?php
 /*
- Twitter単一ウィジェット表示プラグイン
+ Twitter蜊倅ｸ繧ｦ繧｣繧ｸ繧ｧ繝�繝郁｡ｨ遉ｺ繝励Λ繧ｰ繧､繝ｳ
  twitter_widget_mono.inc.php
 
  rebuild by ponoca
@@ -13,7 +13,7 @@
  data-link-color : link color in tweet (not "data-link_color")
 
 ----------------------------------------
- Twitterウィジェット表示プラグイン
+ Twitter繧ｦ繧｣繧ｸ繧ｧ繝�繝郁｡ｨ遉ｺ繝励Λ繧ｰ繧､繝ｳ
  twitter_widget.inc.php
 
  by http://kaz-ic.net/
