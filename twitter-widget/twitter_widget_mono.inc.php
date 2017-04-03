@@ -22,16 +22,6 @@
 
  v 1.00 初版
  v 1.01 タグ埋め込み回避、引数チェック処理追加
-
-----------------------------------------
- Twitterウィジェット表示プラグイン
- twitter_widget.inc.php
-
- by http://kaz-ic.net/
-
- Released under the MIT License.
- http://opensource.org/licenses/MIT
-----------------------------------------
 */
 
 // Pattern of ID (数字のみ)
